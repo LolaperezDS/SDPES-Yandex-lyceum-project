@@ -325,7 +325,7 @@ class AddBtnWidget(QMainWindow, Ui_Add_Button):
         self.hide()
 
 
-class DelBtnWidget(QMainWindow):  # банально... нет смысла объяснять, думаю
+class DelBtnWidget(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi('deletebtn.ui', self)
