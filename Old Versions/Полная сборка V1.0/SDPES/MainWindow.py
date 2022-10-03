@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QPushButton, QMainWindow, QFileDialog
 import os
 
 
-class MainWindow(QMainWindow):  # банально... нет смысла объяснять, думаю
+class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi('Main.ui', self)  # в проэкте используем относительные пути файлов ВСЕГДА
@@ -100,7 +100,7 @@ class AddBtnWidget(QMainWindow):
         self.hide()
 
 
-class DelBtnWidget(QMainWindow):  # банально... нет смысла объяснять, думаю
+class DelBtnWidget(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi('deletebtn.ui', self)
