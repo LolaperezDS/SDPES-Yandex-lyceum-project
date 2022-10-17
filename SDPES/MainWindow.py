@@ -212,7 +212,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.x_btns, self.y_btns = 100, 10  # начало рабочих кнопок(координаты)
         self.x_btns_end = 400  # 'y' будет до бесконечности
         self.t = False
-        self.setWindowTitle('SPDES')
+        self.setWindowTitle('SDPES')
 
     def delbutton(self):
         self.diDel = DelBtnWidget()  # открываю диалоговое окно с удалением
